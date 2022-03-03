@@ -1,0 +1,29 @@
+{
+  "name": "file-sharing",
+  "version": "1.0.0",
+  "description": "share any file through browser",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "serve": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumya-901/file-sharing.git"
+  },
+  "author": "Soumya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumya-901/file-sharing/issues"
+  },
+  "homepage": "https://github.com/soumya-901/file-sharing#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
