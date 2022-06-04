@@ -10,7 +10,6 @@ const getimage={
     } 
 //     const response = await file.save();
     const filePath = `${__dirname}/../${file.path}`;
-    console.log('the getimage .js')
     res.download(filePath);
  }
 }
