@@ -1,7 +1,7 @@
 const express=require('express');
 const DbConnect = require("./database/db");
 const routes = require("./routes/route")
-const PORT = process.env.URL;
+const PORT = process.env.APP_BASE_URL;
 const app = express();
 
 // Data base connection
