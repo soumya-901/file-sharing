@@ -4,8 +4,7 @@
   "description": "share any file through browser",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
-    "dev": "nodemon app"
+    "start":"node app.js"
   },
   "repository": {
     "type": "git",
